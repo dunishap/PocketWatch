@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		A82E7DF4268C9F21008D1382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7DF3268C9F21008D1382 /* AppDelegate.swift */; };
 		A82E7DF6268C9F21008D1382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7DF5268C9F21008D1382 /* SceneDelegate.swift */; };
-		A82E7DF8268C9F21008D1382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7DF7268C9F21008D1382 /* ViewController.swift */; };
 		A82E7DFB268C9F21008D1382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82E7DF9268C9F21008D1382 /* Main.storyboard */; };
 		A82E7DFE268C9F21008D1382 /* PocketWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A82E7DFC268C9F21008D1382 /* PocketWatch.xcdatamodeld */; };
 		A82E7E00268C9F22008D1382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82E7DFF268C9F22008D1382 /* Assets.xcassets */; };
 		A82E7E03268C9F22008D1382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82E7E01268C9F22008D1382 /* LaunchScreen.storyboard */; };
 		A82E7E0E268C9F23008D1382 /* PocketWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E0D268C9F23008D1382 /* PocketWatchTests.swift */; };
 		A82E7E19268C9F23008D1382 /* PocketWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E18268C9F23008D1382 /* PocketWatchUITests.swift */; };
+		A82E7E27268CB70E008D1382 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E26268CB70E008D1382 /* HomePage.swift */; };
+		A82E7E29268CB79F008D1382 /* Wages&Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E28268CB79F008D1382 /* Wages&Hours.swift */; };
+		A82E7E2B268CB7D3008D1382 /* ItemCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E2A268CB7D3008D1382 /* ItemCalculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		A82E7DF0268C9F21008D1382 /* PocketWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82E7DF3268C9F21008D1382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A82E7DF5268C9F21008D1382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A82E7DF7268C9F21008D1382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A82E7DFA268C9F21008D1382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A82E7DFD268C9F21008D1382 /* PocketWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketWatch.xcdatamodel; sourceTree = "<group>"; };
 		A82E7DFF268C9F22008D1382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		A82E7E14268C9F23008D1382 /* PocketWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82E7E18268C9F23008D1382 /* PocketWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWatchUITests.swift; sourceTree = "<group>"; };
 		A82E7E1A268C9F23008D1382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82E7E26268CB70E008D1382 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		A82E7E28268CB79F008D1382 /* Wages&Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wages&Hours.swift"; sourceTree = "<group>"; };
+		A82E7E2A268CB7D3008D1382 /* ItemCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCalculation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,14 @@
 			children = (
 				A82E7DF3268C9F21008D1382 /* AppDelegate.swift */,
 				A82E7DF5268C9F21008D1382 /* SceneDelegate.swift */,
-				A82E7DF7268C9F21008D1382 /* ViewController.swift */,
 				A82E7DF9268C9F21008D1382 /* Main.storyboard */,
 				A82E7DFF268C9F22008D1382 /* Assets.xcassets */,
 				A82E7E01268C9F22008D1382 /* LaunchScreen.storyboard */,
 				A82E7E04268C9F22008D1382 /* Info.plist */,
 				A82E7DFC268C9F21008D1382 /* PocketWatch.xcdatamodeld */,
+				A82E7E26268CB70E008D1382 /* HomePage.swift */,
+				A82E7E28268CB79F008D1382 /* Wages&Hours.swift */,
+				A82E7E2A268CB7D3008D1382 /* ItemCalculation.swift */,
 			);
 			path = PocketWatch;
 			sourceTree = "<group>";
@@ -261,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82E7DF8268C9F21008D1382 /* ViewController.swift in Sources */,
+				A82E7E27268CB70E008D1382 /* HomePage.swift in Sources */,
 				A82E7DFE268C9F21008D1382 /* PocketWatch.xcdatamodeld in Sources */,
 				A82E7DF4268C9F21008D1382 /* AppDelegate.swift in Sources */,
+				A82E7E29268CB79F008D1382 /* Wages&Hours.swift in Sources */,
+				A82E7E2B268CB7D3008D1382 /* ItemCalculation.swift in Sources */,
 				A82E7DF6268C9F21008D1382 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
