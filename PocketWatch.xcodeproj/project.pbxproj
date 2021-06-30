@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82E7DF4268C9F21008D1382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7DF3268C9F21008D1382 /* AppDelegate.swift */; };
+		A82E7DF6268C9F21008D1382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7DF5268C9F21008D1382 /* SceneDelegate.swift */; };
+		A82E7DF8268C9F21008D1382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7DF7268C9F21008D1382 /* ViewController.swift */; };
+		A82E7DFB268C9F21008D1382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82E7DF9268C9F21008D1382 /* Main.storyboard */; };
+		A82E7DFE268C9F21008D1382 /* PocketWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A82E7DFC268C9F21008D1382 /* PocketWatch.xcdatamodeld */; };
+		A82E7E00268C9F22008D1382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82E7DFF268C9F22008D1382 /* Assets.xcassets */; };
+		A82E7E03268C9F22008D1382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82E7E01268C9F22008D1382 /* LaunchScreen.storyboard */; };
+		A82E7E0E268C9F23008D1382 /* PocketWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E0D268C9F23008D1382 /* PocketWatchTests.swift */; };
+		A82E7E19268C9F23008D1382 /* PocketWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E18268C9F23008D1382 /* PocketWatchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A82E7E0A268C9F23008D1382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82E7DE8268C9F21008D1382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82E7DEF268C9F21008D1382;
+			remoteInfo = PocketWatch;
+		};
+		A82E7E15268C9F23008D1382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82E7DE8268C9F21008D1382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82E7DEF268C9F21008D1382;
+			remoteInfo = PocketWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A82E7DF0268C9F21008D1382 /* PocketWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82E7DF3268C9F21008D1382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A82E7DF5268C9F21008D1382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A82E7DF7268C9F21008D1382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A82E7DFA268C9F21008D1382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A82E7DFD268C9F21008D1382 /* PocketWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketWatch.xcdatamodel; sourceTree = "<group>"; };
+		A82E7DFF268C9F22008D1382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A82E7E02268C9F22008D1382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A82E7E04268C9F22008D1382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82E7E09268C9F23008D1382 /* PocketWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82E7E0D268C9F23008D1382 /* PocketWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWatchTests.swift; sourceTree = "<group>"; };
+		A82E7E0F268C9F23008D1382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82E7E14268C9F23008D1382 /* PocketWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82E7E18268C9F23008D1382 /* PocketWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWatchUITests.swift; sourceTree = "<group>"; };
+		A82E7E1A268C9F23008D1382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82E7DED268C9F21008D1382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82E7E06268C9F23008D1382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82E7E11268C9F23008D1382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82E7DE7268C9F21008D1382 = {
+			isa = PBXGroup;
+			children = (
+				A82E7DF2268C9F21008D1382 /* PocketWatch */,
+				A82E7E0C268C9F23008D1382 /* PocketWatchTests */,
+				A82E7E17268C9F23008D1382 /* PocketWatchUITests */,
+				A82E7DF1268C9F21008D1382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82E7DF1268C9F21008D1382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82E7DF0268C9F21008D1382 /* PocketWatch.app */,
+				A82E7E09268C9F23008D1382 /* PocketWatchTests.xctest */,
+				A82E7E14268C9F23008D1382 /* PocketWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82E7DF2268C9F21008D1382 /* PocketWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A82E7DF3268C9F21008D1382 /* AppDelegate.swift */,
+				A82E7DF5268C9F21008D1382 /* SceneDelegate.swift */,
+				A82E7DF7268C9F21008D1382 /* ViewController.swift */,
+				A82E7DF9268C9F21008D1382 /* Main.storyboard */,
+				A82E7DFF268C9F22008D1382 /* Assets.xcassets */,
+				A82E7E01268C9F22008D1382 /* LaunchScreen.storyboard */,
+				A82E7E04268C9F22008D1382 /* Info.plist */,
+				A82E7DFC268C9F21008D1382 /* PocketWatch.xcdatamodeld */,
+			);
+			path = PocketWatch;
+			sourceTree = "<group>";
+		};
+		A82E7E0C268C9F23008D1382 /* PocketWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A82E7E0D268C9F23008D1382 /* PocketWatchTests.swift */,
+				A82E7E0F268C9F23008D1382 /* Info.plist */,
+			);
+			path = PocketWatchTests;
+			sourceTree = "<group>";
+		};
+		A82E7E17268C9F23008D1382 /* PocketWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A82E7E18268C9F23008D1382 /* PocketWatchUITests.swift */,
+				A82E7E1A268C9F23008D1382 /* Info.plist */,
+			);
+			path = PocketWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82E7DEF268C9F21008D1382 /* PocketWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82E7E1D268C9F23008D1382 /* Build configuration list for PBXNativeTarget "PocketWatch" */;
+			buildPhases = (
+				A82E7DEC268C9F21008D1382 /* Sources */,
+				A82E7DED268C9F21008D1382 /* Frameworks */,
+				A82E7DEE268C9F21008D1382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketWatch;
+			productName = PocketWatch;
+			productReference = A82E7DF0268C9F21008D1382 /* PocketWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A82E7E08268C9F23008D1382 /* PocketWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82E7E20268C9F23008D1382 /* Build configuration list for PBXNativeTarget "PocketWatchTests" */;
+			buildPhases = (
+				A82E7E05268C9F23008D1382 /* Sources */,
+				A82E7E06268C9F23008D1382 /* Frameworks */,
+				A82E7E07268C9F23008D1382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82E7E0B268C9F23008D1382 /* PBXTargetDependency */,
+			);
+			name = PocketWatchTests;
+			productName = PocketWatchTests;
+			productReference = A82E7E09268C9F23008D1382 /* PocketWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A82E7E13268C9F23008D1382 /* PocketWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82E7E23268C9F23008D1382 /* Build configuration list for PBXNativeTarget "PocketWatchUITests" */;
+			buildPhases = (
+				A82E7E10268C9F23008D1382 /* Sources */,
+				A82E7E11268C9F23008D1382 /* Frameworks */,
+				A82E7E12268C9F23008D1382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82E7E16268C9F23008D1382 /* PBXTargetDependency */,
+			);
+			name = PocketWatchUITests;
+			productName = PocketWatchUITests;
+			productReference = A82E7E14268C9F23008D1382 /* PocketWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82E7DE8268C9F21008D1382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A82E7DEF268C9F21008D1382 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A82E7E08268C9F23008D1382 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A82E7DEF268C9F21008D1382;
+					};
+					A82E7E13268C9F23008D1382 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A82E7DEF268C9F21008D1382;
+					};
+				};
+			};
+			buildConfigurationList = A82E7DEB268C9F21008D1382 /* Build configuration list for PBXProject "PocketWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82E7DE7268C9F21008D1382;
+			productRefGroup = A82E7DF1268C9F21008D1382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82E7DEF268C9F21008D1382 /* PocketWatch */,
+				A82E7E08268C9F23008D1382 /* PocketWatchTests */,
+				A82E7E13268C9F23008D1382 /* PocketWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82E7DEE268C9F21008D1382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82E7E03268C9F22008D1382 /* LaunchScreen.storyboard in Resources */,
+				A82E7E00268C9F22008D1382 /* Assets.xcassets in Resources */,
+				A82E7DFB268C9F21008D1382 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82E7E07268C9F23008D1382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82E7E12268C9F23008D1382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82E7DEC268C9F21008D1382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82E7DF8268C9F21008D1382 /* ViewController.swift in Sources */,
+				A82E7DFE268C9F21008D1382 /* PocketWatch.xcdatamodeld in Sources */,
+				A82E7DF4268C9F21008D1382 /* AppDelegate.swift in Sources */,
+				A82E7DF6268C9F21008D1382 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82E7E05268C9F23008D1382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82E7E0E268C9F23008D1382 /* PocketWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82E7E10268C9F23008D1382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82E7E19268C9F23008D1382 /* PocketWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A82E7E0B268C9F23008D1382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82E7DEF268C9F21008D1382 /* PocketWatch */;
+			targetProxy = A82E7E0A268C9F23008D1382 /* PBXContainerItemProxy */;
+		};
+		A82E7E16268C9F23008D1382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82E7DEF268C9F21008D1382 /* PocketWatch */;
+			targetProxy = A82E7E15268C9F23008D1382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A82E7DF9268C9F21008D1382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82E7DFA268C9F21008D1382 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A82E7E01268C9F22008D1382 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82E7E02268C9F22008D1382 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82E7E1B268C9F23008D1382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A82E7E1C268C9F23008D1382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82E7E1E268C9F23008D1382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nisha-P.PocketWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A82E7E1F268C9F23008D1382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nisha-P.PocketWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A82E7E21268C9F23008D1382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWatchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nisha-P.PocketWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWatch.app/PocketWatch";
+			};
+			name = Debug;
+		};
+		A82E7E22268C9F23008D1382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWatchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nisha-P.PocketWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWatch.app/PocketWatch";
+			};
+			name = Release;
+		};
+		A82E7E24268C9F23008D1382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nisha-P.PocketWatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketWatch;
+			};
+			name = Debug;
+		};
+		A82E7E25268C9F23008D1382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PocketWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nisha-P.PocketWatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82E7DEB268C9F21008D1382 /* Build configuration list for PBXProject "PocketWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82E7E1B268C9F23008D1382 /* Debug */,
+				A82E7E1C268C9F23008D1382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82E7E1D268C9F23008D1382 /* Build configuration list for PBXNativeTarget "PocketWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82E7E1E268C9F23008D1382 /* Debug */,
+				A82E7E1F268C9F23008D1382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82E7E20268C9F23008D1382 /* Build configuration list for PBXNativeTarget "PocketWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82E7E21268C9F23008D1382 /* Debug */,
+				A82E7E22268C9F23008D1382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82E7E23268C9F23008D1382 /* Build configuration list for PBXNativeTarget "PocketWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82E7E24268C9F23008D1382 /* Debug */,
+				A82E7E25268C9F23008D1382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A82E7DFC268C9F21008D1382 /* PocketWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A82E7DFD268C9F21008D1382 /* PocketWatch.xcdatamodel */,
+			);
+			currentVersion = A82E7DFD268C9F21008D1382 /* PocketWatch.xcdatamodel */;
+			path = PocketWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A82E7DE8268C9F21008D1382 /* Project object */;
+}
