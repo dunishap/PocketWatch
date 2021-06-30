@@ -10,7 +10,7 @@ import UIKit
 class ItemCalculation: UIViewController {
 
     @IBOutlet weak var testTextField: UITextField!
-    
+  
     
     @IBOutlet weak var finalCalculationViewer: UILabel!
     
