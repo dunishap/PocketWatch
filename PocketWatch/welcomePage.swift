@@ -27,12 +27,12 @@ class welcomePage: UIViewController {
   
     
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "toWagesAndHours"{
-//            let destinationController = segue.destination as! Wages&Hours
-//            destinationController.nameOfItem = itemName.text!
-//            destinationController.costOfItem = itemCost.text!
-//        }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toWagesAndHours"{
+            let destinationController = segue.destination as! Wages_Hours
+            destinationController.nameOfItem = itemName.text!
+            destinationController.costOfItem = itemCost.text!
+        }
     
 // Code above tells the next viewController to expect code from the previous controller
 //nameOfItem and costOfItem are the variables we are putting on the next viewcontroller, respectively
@@ -50,3 +50,4 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     // Pass the selected object to the new view controller.
 }
 */
+}

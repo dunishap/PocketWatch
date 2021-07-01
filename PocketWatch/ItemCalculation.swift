@@ -9,18 +9,36 @@ import UIKit
 
 class ItemCalculation: UIViewController {
 
-    @IBOutlet weak var testTextField: UITextField!
   
     
     @IBOutlet weak var finalCalculationViewer: UILabel!
     
+    
+    
     lazy var incomeText = ""
+    lazy var dailyHoursWorked = ""
+    lazy var dailyWagesEarned = ""
+    lazy var dailyExpensesSpent = ""
+    lazy var daysWorkedDaily = ""
+    lazy var nameOfItem = ""
+    lazy var costOfItem = ""
+    
     lazy var integerVersion = Int(incomeText.self)!
-    lazy var sum = integerVersion + 4
+    lazy var intVerDailyHoursWorked = Int(dailyHoursWorked.self)!
+    lazy var intVerDailyWagesEarned = Int(dailyWagesEarned.self)!
+    lazy var intVerDailyExpensesSpent = Int(dailyExpensesSpent.self)!
+    lazy var intVerDaysWorkedDaily = Int(daysWorkedDaily.self)!
+    lazy var intVerCostOfItem = Int(costOfItem.self)!
+    
+    lazy var sum = (intVerCostOfItem - integerVersion ) / (intVerDailyWagesEarned - intVerDailyExpensesSpent)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         finalCalculationViewer.text = String(sum)
+        
+        
+        // earned- dailyexpenses * days * + disposable income = Price of item
+        //daysWorked * hoursWorkedDaily = hoursTotal (shifts)
         
 //        testTextField.text = incomeEntered?.text
 

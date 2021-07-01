@@ -10,11 +10,11 @@ import UIKit
 class HomePage: UIViewController {
 
     
-    
     lazy var dailyHoursWorked = ""
     lazy var dailyWagesEarned = ""
     lazy var dailyExpensesSpent = ""
     lazy var daysWorkedDaily = ""
+    var costOfItem = ""
     
     
     
@@ -31,7 +31,17 @@ class HomePage: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toThirdVc"{
             let destinationController = segue.destination as! ItemCalculation
+            let dailyHoursWorked2 = dailyHoursWorked
+            let dailyWagesEarned2 = dailyWagesEarned
+            let dailyExpensesSpent2 = dailyExpensesSpent
+            let daysWorkedDaily2 = daysWorkedDaily
+            let costOfItem2 = costOfItem
             destinationController.incomeText = incomeTextField.text!
+            destinationController.dailyHoursWorked = dailyHoursWorked2
+            destinationController.dailyWagesEarned = dailyWagesEarned2
+            destinationController.dailyExpensesSpent = dailyExpensesSpent2
+            destinationController.daysWorkedDaily = daysWorkedDaily2
+            destinationController.costOfItem = costOfItem2
         }
     }
 

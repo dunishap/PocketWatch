@@ -33,14 +33,15 @@ class Wages_Hours: UIViewController {
     }
     
     
-    //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    //        if segue.identifier == "toSavings"{
-    //            let destinationController = segue.destination as! HomePage
-    //            destinationController.dailyHoursWorked = dailyHours.text!
-    //            destinationController.dailyWagesEarned = dailyWage.text!
-    //            destinationController.dailyExpensesSpent = dailyExpenses.text!
-    //            destinationController.daysWorkedDaily = daysWorked.text!
-    //        }
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if segue.identifier == "toSavings"{
+                let costOfItem2 = costOfItem
+                let destinationController = segue.destination as! HomePage
+                destinationController.dailyHoursWorked = dailyHours.text!
+                destinationController.dailyWagesEarned = dailyWage.text!
+                destinationController.dailyExpensesSpent = dailyExpenses.text!
+                destinationController.costOfItem = costOfItem2
+            }
 
 
 }
@@ -56,3 +57,4 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     // Pass the selected object to the new view controller.
 }
 */
+}
