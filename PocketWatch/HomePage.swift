@@ -9,10 +9,18 @@ import UIKit
 
 class HomePage: UIViewController {
 
+    
+    
+    lazy var dailyHoursWorked = ""
+    lazy var dailyWagesEarned = ""
+    lazy var dailyExpensesSpent = ""
+    lazy var daysWorkedDaily = ""
+    
+    
+    
     @IBOutlet weak var incomeTextField: UITextField!
     
- 
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +36,7 @@ class HomePage: UIViewController {
     }
 
       
-    // prepare function below is alrighty!!
+    // prepare function above is alrighty!!
 }
 
 //incomeEntered is what the user typed into the text field
