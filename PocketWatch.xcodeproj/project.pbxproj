@@ -19,6 +19,7 @@
 		A82E7E29268CB79F008D1382 /* Wages&Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E28268CB79F008D1382 /* Wages&Hours.swift */; };
 		A82E7E2B268CB7D3008D1382 /* ItemCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E2A268CB7D3008D1382 /* ItemCalculation.swift */; };
 		A82E7E6E268DEBFC008D1382 /* welcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E7E6D268DEBFC008D1382 /* welcomePage.swift */; };
+		A82E7E75268E6090008D1382 /* louis_george_caf in Resources */ = {isa = PBXBuildFile; fileRef = A82E7E74268E608F008D1382 /* louis_george_caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A82E7E28268CB79F008D1382 /* Wages&Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wages&Hours.swift"; sourceTree = "<group>"; };
 		A82E7E2A268CB7D3008D1382 /* ItemCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCalculation.swift; sourceTree = "<group>"; };
 		A82E7E6D268DEBFC008D1382 /* welcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomePage.swift; sourceTree = "<group>"; };
+		A82E7E74268E608F008D1382 /* louis_george_caf */ = {isa = PBXFileReference; lastKnownFileType = folder; name = louis_george_caf; path = ../../../Downloads/louis_george_caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		A82E7DE7268C9F21008D1382 = {
 			isa = PBXGroup;
 			children = (
+				A82E7E6F268E4130008D1382 /* Fonts */,
 				A82E7DF2268C9F21008D1382 /* PocketWatch */,
 				A82E7E0C268C9F23008D1382 /* PocketWatchTests */,
 				A82E7E17268C9F23008D1382 /* PocketWatchUITests */,
@@ -138,6 +141,14 @@
 				A82E7E1A268C9F23008D1382 /* Info.plist */,
 			);
 			path = PocketWatchUITests;
+			sourceTree = "<group>";
+		};
+		A82E7E6F268E4130008D1382 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A82E7E74268E608F008D1382 /* louis_george_caf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 				A82E7E03268C9F22008D1382 /* LaunchScreen.storyboard in Resources */,
 				A82E7E00268C9F22008D1382 /* Assets.xcassets in Resources */,
 				A82E7DFB268C9F21008D1382 /* Main.storyboard in Resources */,
+				A82E7E75268E6090008D1382 /* louis_george_caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
